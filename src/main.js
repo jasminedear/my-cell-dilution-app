@@ -1,7 +1,6 @@
 // src/main.js
 import { createApp } from 'vue';
-import App from './App.vue';
-
-// 确保CSS/全局样式也在这里导入（如果有的话）
+// 必须是 './App.vue'
+import App from './App.vue'; 
 
 createApp(App).mount('#app');
